@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let arr = new Array(100);
+    // random()
+    // function random(){
+    //     for (let i = 0; i < 100; i++) {
+    //         arr[i] = Math.round(Math.random()*100)
+    //     }
+    // }
+    let sum = 0
+    let count = 0
+    for (let i = 0; i <= 100; i++) {
+
+        if (i % 3 == 0 || i & 7 == 0){
+            sum = sum + i
+            count++
+        }
+    }
+    alert(" từ 0 đến 100 có " + count + " số lẻ "+ " Có tổng bằng " + sum)
+</script>
+</body>
+</html>

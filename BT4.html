@@ -15,11 +15,12 @@
     // }
     let sum = 0
     let count = 0
-    for (let i = 0; i <= 100; i++) {
+    for (let i = 1; i <= 100; i++) {
 
-        if (i % 3 == 0 || i & 7 == 0){
+        if (i % 3 == 0 || i % 7 == 0){
             sum = sum + i
             count++
+            console.log(i)
         }
     }
     alert(" từ 0 đến 100 có " + count + " số lẻ "+ " Có tổng bằng " + sum)
